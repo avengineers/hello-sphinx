@@ -4,5 +4,8 @@
             "yzane.markdown-pdf",
             "dendron.dendron-paste-image",
             "jebbs.plantuml",
+            "theumletteam.umlet",
+            "hediet.vscode-drawio",
+            "bierner.markdown-mermaid",
         ]
 }
