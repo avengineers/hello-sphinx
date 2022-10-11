@@ -8,6 +8,7 @@ sphinx = "*"
 sphinx-autobuild = "*"
 rst2pdf = "*"
 sphinx-material = "*"
+sphinxcontrib-plantuml = "*"
 
 [dev-packages]
 

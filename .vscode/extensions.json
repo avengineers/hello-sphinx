@@ -3,5 +3,6 @@
             "lextudio.restructuredtext-pack",
             "yzane.markdown-pdf",
             "dendron.dendron-paste-image",
+            "jebbs.plantuml",
         ]
 }

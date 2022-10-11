@@ -1,7 +1,14 @@
+import os
+
+### meta data #################################################################
+
 project = "Hello Sphinx"
 copyright= "2022, Alexander Mann-Wahrenberg (basejumpa)"
 release = "0.1.0"
 
+extensions = []
+
+### html config ###############################################################
 html_theme = "sphinx_material"
 
 html_sidebars = {
@@ -20,3 +27,11 @@ html_theme_options = {
     'globaltoc_collapse'     : 'true',
     'globaltoc_includehidden': 'true',
 }
+
+### plantuml config ###########################################################
+extensions.append("sphinxcontrib.plantuml")
+conf_location = os.path.realpath(os.path.dirname(__file__))
+
+plantuml = f"plantuml.cmd {conf_location} -config {conf_location}/plantuml.config"
+plantuml_output_format = 'svg'
+
