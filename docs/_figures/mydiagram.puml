@@ -1,6 +1,6 @@
 @startuml
 Alice -> Bob: Authentication Request
-Bob --> Alice: Authentication Response
+Bob --> Gerda: Authentication Response
 
 Alice -> Bob: Another authentication Request
 Alice <-- Bob: Another authentication Response

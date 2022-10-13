@@ -8,6 +8,11 @@ release = "0.1.0"
 
 extensions = []
 
+### configuratin ##############################################################
+# @see https://www.sphinx-doc.org/en/master/usage/configuration.html
+
+numfig = 'true'
+
 ### html config ###############################################################
 html_theme = "sphinx_material"
 
@@ -29,9 +34,12 @@ html_theme_options = {
 }
 
 ### plantuml config ###########################################################
-extensions.append("sphinxcontrib.plantuml")
+extensions.append('sphinxcontrib.plantuml')
 conf_location = os.path.realpath(os.path.dirname(__file__))
 
 plantuml = f"plantuml.cmd {conf_location} -config {conf_location}/plantuml.config"
 plantuml_output_format = 'svg'
 
+### draw.io config ############################################################
+# @see https://pypi.org/project/sphinxcontrib-drawio/
+extensions.append('sphinxcontrib.drawio')
