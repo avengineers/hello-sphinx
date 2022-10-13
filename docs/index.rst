@@ -12,3 +12,4 @@ Hello Sphinx!
 
     anotherfile
     someotherfile
+    srq/index

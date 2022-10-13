@@ -43,3 +43,12 @@ plantuml_output_format = 'svg'
 ### draw.io config ############################################################
 # @see https://pypi.org/project/sphinxcontrib-drawio/
 extensions.append('sphinxcontrib.drawio')
+
+### mlx traceability config ###################################################
+# @see https://melexis.github.io/sphinx-traceability-extension/configuration.html
+extensions.append('mlx.traceability')
+
+import mlx.traceability
+
+html_static_path = [os.path.join(os.path.dirname(mlx.traceability.__file__), 'assets')]
+
