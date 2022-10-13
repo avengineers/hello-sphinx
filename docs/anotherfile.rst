@@ -13,7 +13,6 @@ As you can see in :numref:`fig_an_actor_and_cloud`, bla bla blub. (The caption o
    This is the caption!
 
 
-
 See https://docs.readthedocs.io/en/stable/guides/authors.html
 
 See https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html
