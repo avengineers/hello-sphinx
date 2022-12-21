@@ -4,5 +4,7 @@
     "pasteImage.prefix": ".. figure:: ",
 
     "plantuml.jarArgs": [
-    ]
+    ],
+    "python.analysis.typeCheckingMode": "basic",
+    "esbonio.sphinx.confDir": ""
 }

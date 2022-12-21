@@ -1,4 +1,4 @@
-Some Chanpter
+Some Chapter
 =============
 
 Hello Sphinx!

@@ -11,7 +11,7 @@ extensions = []
 ### configuratin ##############################################################
 # @see https://www.sphinx-doc.org/en/master/usage/configuration.html
 
-numfig = 'true'
+numfig = True
 
 ### html config ###############################################################
 html_theme = "sphinx_material"
